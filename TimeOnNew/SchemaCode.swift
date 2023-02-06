@@ -43,6 +43,12 @@ class SchemaCode : ObservableObject{
             
             //     for _ in snapshot!.children{
             
+            guard error == nil else {
+                print("Data hämtning misslyckades")
+                self.felhamtning = true
+                return
+            }
+            
             let currentuserInfo = snapshot!.value as! [String : Any]
             
             let tempcurrentuser = Appuser()

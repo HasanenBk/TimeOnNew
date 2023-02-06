@@ -23,6 +23,7 @@ struct AnsvarigkodView: View {
    
     var ref: DatabaseReference! = Database.database().reference()
  
+    @State var adminkod = "1234"
     @State var kod = ""
     @State var felkod = false
     
@@ -52,6 +53,10 @@ struct AnsvarigkodView: View {
                         if(ansvarigcode == kod){
                             AnsvarigView()
                         
+                        }
+                       else if(ansvarigcode == adminkod){
+                            AdminView()
+                            
                         } else {
                             FelkodView()
 

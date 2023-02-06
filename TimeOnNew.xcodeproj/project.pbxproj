@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06B52BBE29665C83006821CE /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B52BBD29665C83006821CE /* LogoView.swift */; };
+		0655A9FB296CC4F1005AFD5A /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0655A9FA296CC4F1005AFD5A /* LogoView.swift */; };
 		06B52BC029665CEF006821CE /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B52BBF29665CEF006821CE /* StartView.swift */; };
 		06B52BC229665D74006821CE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B52BC129665D74006821CE /* HomeView.swift */; };
 		06B52BC429665EC1006821CE /* MeddelandeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B52BC329665EC1006821CE /* MeddelandeView.swift */; };
@@ -44,7 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		06B52BBD29665C83006821CE /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		0655A9FA296CC4F1005AFD5A /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		06B52BBF29665CEF006821CE /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		06B52BC129665D74006821CE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		06B52BC329665EC1006821CE /* MeddelandeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeddelandeView.swift; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 				06B52BDF296B8B72006821CE /* AdminView.swift */,
 				06B52BD129666245006821CE /* passCode.swift */,
 				06B52BD729666383006821CE /* ProfilView.swift */,
-				06B52BBD29665C83006821CE /* LogoView.swift */,
+				0655A9FA296CC4F1005AFD5A /* LogoView.swift */,
 				06B52BD929666452006821CE /* LoadingView.swift */,
 				06B52BDB296664A4006821CE /* FelkodView.swift */,
 				06B52BDD296664E8006821CE /* loadSchemaView.swift */,
@@ -246,6 +246,7 @@
 				06B52BD02966620E006821CE /* AnsvarigkodView.swift in Sources */,
 				06BE9E732966501B00E70E72 /* ContentView.swift in Sources */,
 				06BE9E902966567100E70E72 /* RegistreringCode.swift in Sources */,
+				0655A9FB296CC4F1005AFD5A /* LogoView.swift in Sources */,
 				06B52BD4296662DF006821CE /* AngeSchemaView.swift in Sources */,
 				06B52BE0296B8B72006821CE /* AdminView.swift in Sources */,
 				06B52BC029665CEF006821CE /* StartView.swift in Sources */,
@@ -253,7 +254,6 @@
 				06B52BC62966600C006821CE /* AllaPassView.swift in Sources */,
 				06BE9E922966583800E70E72 /* InloggningCode.swift in Sources */,
 				06B52BC829666060006821CE /* MinaPassView.swift in Sources */,
-				06B52BBE29665C83006821CE /* LogoView.swift in Sources */,
 				06B52BCE296661C7006821CE /* AllmounthsView.swift in Sources */,
 				06BE9E712966501B00E70E72 /* TimeOnNewApp.swift in Sources */,
 				06BE9E96296659B400E70E72 /* RegistreringView.swift in Sources */,

@@ -167,12 +167,14 @@ struct MinaPassView: View {
           
         worktimeinfo["datum"] = minapass.month
         worktimeinfo["Total timmar"] = (String(format: "%.2f", totaltimmar))
+        worktimeinfo["name"] = userWorktimeinfo.name
 
-        ref.child("Organisation").child(registreringkod).child("users worktime").child(userWorktimeinfo.name).child (minapass.month).setValue(worktimeinfo)
-        
         
         // kolla användarens Id
         let userId = Auth.auth().currentUser!.uid
+        
+        ref.child("Organisation").child(registreringkod).child("users worktime").child(userId).setValue(worktimeinfo)
+        
         
         ref.child("Organisation").child(registreringkod).child("users").child("user totaltime").child(userId).child (minapass.month).setValue(worktimeinfo)
     }

@@ -10,7 +10,7 @@ import Firebase
 
 
 // Spara datepicker på Appstorage
-/*import Foundation
+import Foundation
 extension Date: RawRepresentable {
     private static let formatter = ISO8601DateFormatter()
     
@@ -21,16 +21,16 @@ extension Date: RawRepresentable {
     public init?(rawValue: String) {
         self = Date.formatter.date(from: rawValue) ?? Date()
     }
-} */
-
-
+}
 
 struct AngeSchemaView: View {
     
     @State var dag = ""
     
-    @State var startTime = Date.now
-    @State var endTime = Date.now
+    @AppStorage("savedDate") var startTime: Date = Date()
+    @AppStorage("save") var endTime: Date = Date()
+  //  @State var startTime = Date.now
+   // @State var endTime = Date.now
     
     @State var currentDay : String
     
@@ -82,6 +82,7 @@ struct AngeSchemaView: View {
            
                 // Time picker
                 Form {
+                    
                     Section (header: Text ("")) {
                         DatePicker("Start tid:", selection: $startTime, displayedComponents:
                                 . hourAndMinute)
